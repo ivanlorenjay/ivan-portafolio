@@ -49,13 +49,20 @@ h1 {
 
 .experiencia {
     padding: 40px;
-
 }
 
-.experiencia .row div {
-    height: 250px;
-    background-color: purple;
-    border: 3px solid orange;
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
 }
 
 /* Sección Hero */
