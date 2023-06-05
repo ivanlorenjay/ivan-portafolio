@@ -102,7 +102,7 @@ h1 {
     margin: 5px;
 }
 
-/* Proyectos */
+/* Proyectos recientes -- Galería de proyectos */
 .proyectos-recientes {
     padding: 40px;
 }
@@ -111,7 +111,7 @@ h1 {
     height: 100%;
     width: 100%;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 40px;
     display: block;
     transition: all 0.2s ease;
 }
@@ -196,6 +196,16 @@ h1 {
 
 /* Responsive  */
 
+@media screen and (max-width: 400px) {
+    .overlay p {
+        font-size: 18px;
+    }
+
+    .overlay i {
+        font-size: 40px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .navbar-brand {
         display: none;
@@ -207,4 +217,6 @@ h1 {
         max-width: 600px;
     }
 }
+
+
 
