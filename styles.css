@@ -205,6 +205,36 @@ h1 {
     justify-content: center;
 }
 
+.testimonio-imagen {
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px;
+}
+
+.testimonio-texto {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.testimonio-info {
+    font-weight: bold;
+    text-align: center;
+}
+
+.testimonio-info p {
+    margin-bottom: 0;
+}
+
+.testimonio-footer .cliente {
+    font-size: 1.2rem;
+}
+
+.testimonio-info .cargo {
+    font-size: 0.9rem;
+    color: #656060;
+}
+
 /* Sección Hero */
 
 .hero {
