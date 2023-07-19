@@ -36,16 +36,16 @@
 
                 <ul class="navbar-nav d-flex justify-content-center align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+                        <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Proyectos</a>
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonios</a>
+                        <a class="nav-link" href="#testimonios">Testimonios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contact">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -65,7 +65,7 @@
     </section>
 
     <!-- About me -->
-    <section class="about-me seccion-oscura">
+    <section id="sobre-mi" class="about-me seccion-oscura">
         <div class="contenedor">
             <h2 class="seccion-titulo">Conoce a Iván</h2>
             <p class="seccion-texto">
@@ -135,7 +135,7 @@
     </section>
 
     <!-- Projects -->
-    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
         <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
         <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente</h3>
         <!-- Galería de proyectos -->
@@ -297,52 +297,53 @@
     </section>
 
     <!-- testimonios -->
-    <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="container">
-                    <img class="testimonio-imagen rounded-circle" src="imagenes/uno.svg" alt="Foto de x">
-                    <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
-                    <div class="testimonio-info">
-                        <p class="cliente">Gino</p>
-                        <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
+    <section id="testimonios" class="testimonios seccion-clara">
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="imagenes/uno.svg" alt="Foto de x">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Gino</p>
+                            <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <img class="testimonio-imagen rounded-circle" src="imagenes/uno.svg" alt="Foto de y">
-                    <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
-                    <div class="testimonio-info">
-                        <p class="cliente">Nora</p>
-                        <p class="cargo">Gerente de DiseñaMiPáginaWeb</p>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="imagenes/uno.svg" alt="Foto de y">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Nora</p>
+                            <p class="cargo">Gerente de DiseñaMiPáginaWeb</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <img class="testimonio-imagen rounded-circle" src="imagenes/uno.svg" alt="Foto de z">
-                    <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
-                    <div class="testimonio-info">
-                        <p class="cliente">Leonardo</p>
-                        <p class="cargo">Director de AprendeAProgramar</p>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="imagenes/uno.svg" alt="Foto de z">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Leonardo</p>
+                            <p class="cargo">Director de AprendeAProgramar</p>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
             </button>
         </div>
     </section>
 
     <!-- Contacto -->
-    <section class="contacto seccion-oscura">
+    <section id="contact" class="contacto seccion-oscura">
         <div class="container">
             <div class="container text-center rectangulo d-flex justify-content-evenly">
                 <div class="row">
