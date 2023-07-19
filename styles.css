@@ -367,6 +367,12 @@ footer {
     color: black;
 }
 
+.derechos-de-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
+
 /* Responsive  */
 @media screen and (max-width: 400px) {
     .overlay p {
